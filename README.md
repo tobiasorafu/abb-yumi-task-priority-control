@@ -38,11 +38,7 @@ The kinematic analysis scripts can be run separately from the `kinematics/` fold
 
 Pre-rendered MP4 demonstrations were produced as part of the project but are not included in this source repository.
 
-## Group Members
 
-- Tobias Orafu
-- Emediong Moffat
-- Kofoworola Oyeniyi
 
 ## Original Authors and Attribution
 
@@ -52,6 +48,4 @@ Original repository: `maram-khatib/task-priority-relaxed-constraints` on GitHub.
 
 See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) and [`LICENSE`](LICENSE) for attribution and licence information.
 
-## Academic Project Note
 
-This repository contains the **Part A implementation and simulation code only**. The university assessment brief and submitted presentation are intentionally not included.
