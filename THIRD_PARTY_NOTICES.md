@@ -18,4 +18,4 @@ Group members:
 - Emediong Moffat
 - Kofoworola Oyeniyi
 
-The original copyright and licence headers are retained in the applicable MATLAB files. A copy of the Apache License 2.0 is included in `LICENSES/Apache-2.0.txt`.
+The original copyright and licence headers are retained in the applicable MATLAB files. A copy of the Apache License 2.0 is included in the repository as [`LICENSE`](LICENSE).
