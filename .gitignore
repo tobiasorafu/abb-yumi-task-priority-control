@@ -1,0 +1,20 @@
+# MATLAB autosave and temporary files
+*.asv
+*.m~
+*.autosave
+
+# MATLAB generated data / caches
+*.slxc
+*.mex*
+slprj/
+codegen/
+
+# Local result files that may be regenerated
+*.mat
+*.fig
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
