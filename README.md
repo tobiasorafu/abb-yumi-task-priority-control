@@ -10,6 +10,25 @@ The MATLAB scripts correspond to simulations based on the IEEE Robotics and Auto
 
 The project investigates the kinematics and task-priority control of the ABB YuMi robot using both **velocity-level** and **acceleration-level** controllers, including collision avoidance with **static and dynamic obstacles**.
 
+## What This Project Demonstrates
+
+- Forward and differential kinematics of the ABB YuMi left arm.
+- Cartesian trajectory tracking and a relaxed pointing task.
+- Task-priority control for handling multiple robot objectives.
+- End-effector and robot-body collision avoidance.
+- Velocity-level and acceleration-level controller design.
+- Static and dynamic obstacle handling in simulation.
+
+## Simulation Results
+
+The four cases below visualise the ABB YuMi tracking its Cartesian task while responding to obstacles. The lower plots show the corresponding position and orientation task errors.
+
+| Static obstacle — velocity control | Static obstacle — acceleration control |
+|:---:|:---:|
+| <img src="assets/static_velocity.jpg" width="420" alt="ABB YuMi static obstacle velocity-level control simulation"> | <img src="assets/static_acceleration.jpg" width="420" alt="ABB YuMi static obstacle acceleration-level control simulation"> |
+| **Dynamic obstacle — velocity control** | **Dynamic obstacle — acceleration control** |
+| <img src="assets/dynamic_velocity.jpg" width="420" alt="ABB YuMi dynamic obstacle velocity-level control simulation"> | <img src="assets/dynamic_acceleration.jpg" width="420" alt="ABB YuMi dynamic obstacle acceleration-level control simulation"> |
+
 ## Project Contents
 
 - `kinematics/` – direct/forward and differential kinematics for the ABB YuMi left arm.
@@ -36,10 +55,6 @@ The kinematic analysis scripts can be run separately from the `kinematics/` fold
 - Dynamic obstacle – velocity-level controller
 - Dynamic obstacle – acceleration-level controller
 
-Pre-rendered MP4 demonstrations were produced as part of the project but are not included in this source repository.
-
-
-
 ## Original Authors and Attribution
 
 The controller implementation is based on MATLAB scripts released by **Maram Khatib, Khaled Al Khudir, and Alessandro De Luca** for their 2020 IEEE RA-L paper. The original source code is licensed under the **Apache License 2.0**. Original copyright and licence notices have been retained in the relevant source files, and modified files carry a notice identifying the ABB YuMi group-project changes.
@@ -47,5 +62,3 @@ The controller implementation is based on MATLAB scripts released by **Maram Kha
 Original repository: `maram-khatib/task-priority-relaxed-constraints` on GitHub.
 
 See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) and [`LICENSE`](LICENSE) for attribution and licence information.
-
-
