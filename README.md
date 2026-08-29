@@ -19,15 +19,15 @@ The project investigates the kinematics and task-priority control of the ABB YuM
 - Velocity-level and acceleration-level controller design.
 - Static and dynamic obstacle handling in simulation.
 
-## Simulation Results
+## Simulation Videos
 
-The four cases below visualise the ABB YuMi tracking its Cartesian task while responding to obstacles. The lower plots show the corresponding position and orientation task errors.
+### Static Obstacles
+- [Velocity-level controller](media/static_velocity.mp4)
+- [Acceleration-level controller](media/static_acceleration.mp4)
 
-| Static obstacle — velocity control | Static obstacle — acceleration control |
-|:---:|:---:|
-| <img src="assets/static_velocity.jpg" width="420" alt="ABB YuMi static obstacle velocity-level control simulation"> | <img src="assets/static_acceleration.jpg" width="420" alt="ABB YuMi static obstacle acceleration-level control simulation"> |
-| **Dynamic obstacle — velocity control** | **Dynamic obstacle — acceleration control** |
-| <img src="assets/dynamic_velocity.jpg" width="420" alt="ABB YuMi dynamic obstacle velocity-level control simulation"> | <img src="assets/dynamic_acceleration.jpg" width="420" alt="ABB YuMi dynamic obstacle acceleration-level control simulation"> |
+### Dynamic Obstacles
+- [Velocity-level controller](media/dynamic_velocity.mp4)
+- [Acceleration-level controller](media/dynamic_acceleration.mp4)
 
 ## Project Contents
 
@@ -37,6 +37,7 @@ The four cases below visualise the ABB YuMi tracking its Cartesian task while re
 - `scenarios/static_acceleration/` – acceleration-level control with static obstacles and trajectory timing-law analysis.
 - `scenarios/dynamic_velocity/` – velocity-level control with moving obstacles.
 - `scenarios/dynamic_acceleration/` – acceleration-level control with moving obstacles.
+- `media/` – MP4 demonstrations for the four controller scenarios.
 
 ## Running the Simulations
 
@@ -47,13 +48,6 @@ The four cases below visualise the ABB YuMi tracking its Cartesian task while re
 5. Run `common/plot_results.m` after a simulation to generate the result plots.
 
 The kinematic analysis scripts can be run separately from the `kinematics/` folder.
-
-## Controller Scenarios
-
-- Static obstacle – velocity-level controller
-- Static obstacle – acceleration-level controller
-- Dynamic obstacle – velocity-level controller
-- Dynamic obstacle – acceleration-level controller
 
 ## Original Authors and Attribution
 
